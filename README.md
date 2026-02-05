@@ -99,4 +99,4 @@ npm run dev
 - 教师：20081001 / 123456
 - 学生：20154084 / 123456
 
-这是一个基于 [原项目名称 (Original Project Name)](https://github.com/OriginalAuthor/OriginalRepo) 改进的项目。
+这是一个基于 SpringBoot-Vue-OnlineExam 改进的项目。
