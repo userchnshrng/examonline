@@ -99,17 +99,4 @@ npm run dev
 - 教师：20081001 / 123456
 - 学生：20154084 / 123456
 
-## 面试/实习准备（基于本项目你能展示的技能）
-- 熟悉 Spring Boot 注解与三层架构（`@RestController`, `@Service`, `@Mapper`, `@Autowired`）。
-- 掌握文件上传/下载流程：前端 `el-upload`，后端 `MultipartFile`、IO 流，使用 EasyExcel 或 Apache POI 读写 Excel。
-- 理解前后端分离开发流程：Vue 热重载、API 代理（proxy）、跨域与接口调试。
-- 了解 MyBatis/MyBatis-Plus 基本用法：注解方式或 XML 映射。
-
-## 下一步建议（学习路线）
-1. 理解 `ImportController` 与 `StudentImportServiceImpl` 的实现，动手调试导入功能并观察数据库变更。 
-2. 学习并实现导入的数据校验（例如使用 Hibernate Validator）。
-3. 优化大文件导入的性能（MyBatis 批量插入或异步处理）。
-4. 加入 JWT 登录鉴权，学习 Spring Security 或自实现 Token 验证。
-
----
-如需我把 README 中某部分扩展为更详细的步骤（比如一步步演示如何在 IDEA 中导入项目并调试后端，或如何打包部署），告诉我你最想学的部分，我会把该部分展开成详细教学步骤并带你实操。
+这是一个基于 SpringBoot-Vue-OnlineExam 改进的项目。
