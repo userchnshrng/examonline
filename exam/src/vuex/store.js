@@ -37,6 +37,12 @@ const state = {
       icon: 'icon-tiku',
       content:[{item1:'公告管理',path:'/noticeManage'}],
     },
+    {
+      index: '7',
+      title: 'AI 智能助手',
+      icon: 'el-icon-chat-dot-round',
+      content:[{item1:'AI 对话',path:'/aiChat'}],
+    },
   ],
 }
 const mutations = {

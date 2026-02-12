@@ -18,6 +18,10 @@ export default new Router({
           component: () => import('@/components/admin/noticeManage')
         },
         {
+          path: '/aiChat', //AI智能助手
+          component: () => import('@/components/common/aiChat')
+        },
+        {
           path: '/', //首页默认路由
           component: () => import('@/components/common/hello')
         },

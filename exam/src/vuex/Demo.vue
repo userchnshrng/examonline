@@ -10,14 +10,7 @@ export default {
 
         }
     },
-    // computed: {
-    //     count() {
-    //         return this.$store.state.count
-    //     }
-    // },
-    // computed:mapState({
-    //     count: state => state.count
-    // }),
+
     computed: mapState(["count","msg","flag"]),
     methods: mapMutations(["add","reduce"]),
 }
