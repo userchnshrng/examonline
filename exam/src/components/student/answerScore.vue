@@ -32,6 +32,12 @@
 </template>
 
 <script>
+// 修正：将底层的 require 改为现代的 import 静态引入
+import fail1Img from "@/assets/img/cry1.gif"
+import fail2Img from "@/assets/img/cry2.jpg"
+import pass1Img from "@/assets/img/good1.jpg"
+import pass2Img from "@/assets/img/good2.gif"
+
 export default {
   data() {
     return {
@@ -39,10 +45,10 @@ export default {
       score: 0, //总分
       imgShow: false, //不及格图片显示
       imgSrc: {
-        fail1: require("@/assets/img/cry1.gif"),
-        fail2: require('@/assets/img/cry2.jpg'),
-        pass1: require('@/assets/img/good1.jpg'),
-        pass2: require('@/assets/img/good2.gif')
+        fail1: fail1Img,
+        fail2: fail2Img,
+        pass1: pass1Img,
+        pass2: pass2Img
       },
       startTime: null, //考试开始时间
       endTime: null, //考试结束时间
@@ -82,24 +88,24 @@ export default {
   }
   .img1Transform {
     opacity: 1 !important;
-    transform: translateX(30px) !important;  
+    transform: translateX(30px) !important;
     transition: all 0.6s ease !important;
   }
   .img2Transform {
     opacity: 1 !important;
-    transform: translateX(-30px) !important;  
+    transform: translateX(-30px) !important;
     transition: all 0.6s ease !important;
   }
   .img1 {
     margin-top: 70px;
     opacity: 0;
-    transform: translateX(0px);  
+    transform: translateX(0px);
     transition: all 0.6s ease;
   }
   .img2 {
     margin-top: 30px;
     opacity: 0;
-    transform: translateX(0px);  
+    transform: translateX(0px);
     transition: all 0.6s ease;
   }
 }
@@ -169,7 +175,7 @@ export default {
       margin-top: 80px;
       margin-bottom: 20px;
       transition: all 1s ease;
-      
+
       span:nth-child(1) {
         font-size: 36px;
         font-weight: 600;
@@ -181,4 +187,3 @@ export default {
   }
 }
 </style>
-
